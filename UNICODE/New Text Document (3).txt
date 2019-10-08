@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>
+        E-commerce Mock-up Website
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="top-nav-bar">
+    <div class="search-box">
+        <img src="images/shopping_cart.jpg" width="50" height="50">
+        <input type="text" class="form-control">
+        <span class="input-group-text"><i class="fa fa-search"aria-hidden="true"></i>
+</span>
+</div>
+    <
+    </div>
+</body>
+
+
+
+
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+*background-color: #f1f3f4;
+font-family:sans-serif;
+}
+.top-nav-bar
+{
+height:57px;
+top:0;
+position:sticky;
+background:#fff;
+margin-bottom:20px;
+border-bottom: 3px solid orange;
+z-index:2;
+}
+.form-control
+{
+margin-top:9px;
+margin-left:30px;
+border:1px solid orange !important;
+border-top-left-radius:20px  !important;
+border-bottom-left-radius:20px !important;
+border-top-right-radius:0 !important;
+border-bottom-right-radius:0 !important;
+box-shadow:none;
+}
+.search-box{
+display:inline-flex;
+width:60%;
+}
+.input-group-text{
+background:orange;
+border:1px solid orange;
+margin:8.5px 10px 3px 0;
+border-top-left-radius:0px !important;
+border-bottom-left-radius:0px !important;
+border-top-right-radius:20px !important;
+border-bottom-right-radius:20px !important;
+cursor:pointer;
+}
